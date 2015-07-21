@@ -1,0 +1,13 @@
+.slider{
+    overflow:hidden;
+    /*slider尺寸配(这里配的都是默认值，使用该插件的时候请重写.slider的尺寸设置),当slider是横向满屏，浏览器缩放的时候，min-width配置会使slider不至于太丑*/
+    width:1000px;min-width:1000px;height:400px;
+}
+.slider-box:after{
+    content:'';display:table;
+    clear:both;font-size:0;height:0;width:0;overflow:hidden;
+}
+.slider-item{
+    float:left;
+    overflow:hidden;
+}
